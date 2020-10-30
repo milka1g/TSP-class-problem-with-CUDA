@@ -1,3 +1,5 @@
 See the picture!
 
 You have to find the shortest path for the drill to go above printed circuit board (PCB). You can position the drill above any of the holes as a starting position. Similar to the travelling salesman problem but the drill doesn't have to come to the starting hole like the salesman has to come to the starting city. No heuristic just brute gpu checking every permutation.  
+
+CUDA Toolkit 10.2 used
