@@ -200,7 +200,7 @@ int main() {
 	std::cout << std::endl;
 
 	size_t end = clock();
-	std::cout << " Minimalna cena iz kernela je " << min << ", a ja izracunao " << newmin << ", a vreme izvrsavanja je: " << (end - start) / 1000 << "s" << std::endl;
+	std::cout << " Minimal path from kernel " << min << ", calculated " << newmin << ", execution time: " << (end - start) / 1000 << "s" << std::endl;
 
 	cudaFree(d_distance);
 	delete[] h_distance;
